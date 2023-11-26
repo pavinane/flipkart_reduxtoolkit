@@ -1,0 +1,97 @@
+.Products{
+    padding: 80px 10px 10px 20px;
+    width: 100%;
+    background-color: rgb(247,246,246);
+    display: flex;
+    font-weight: 500;
+    .Products-filter{
+        // display: none;
+        width: 20%;
+        height: 100%;
+        padding: 10px;
+        background-color: #fff;
+        margin-right: 1rem;
+        box-shadow: 0px 10px 10px rgb(204,202,202);
+        .filter-head{
+            padding: 10px 0;
+            font-size: 20px;
+            border-bottom: 1px solid rgb(228,225,225);
+        }
+        .category{
+            padding: 15px 0;
+            border-bottom: 1px solid rgb(228,225,225);
+
+            .filter-categoryHead{
+                font-size:14px;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+            .filter-category{
+                padding: 10px 20px 0px;
+                font-size: 15px ;
+            }
+        }
+        .Price{
+            padding: 15px 0;
+            border-bottom: 1px solid rgb(228,225,225);
+            .priceHead{
+                text-transform: uppercase;
+            }
+            .pricerange{
+                width: 100%;
+                margin-top: 10px;
+            }
+            .price-input{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    font-size: 15px;
+                    color: gray;
+                }
+                .pricebox{
+                    width: 100%;
+                    padding: 5px;
+                }
+            }
+        }
+        
+        .brand{
+            padding: 20px 0 ;
+            font-size: 15px;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgb(228,225,225);
+        }
+        
+    }
+    .Products-items{
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        padding: 15px;
+        .totalresults {
+            font-size: 15px;
+            letter-spacing: 1px;
+          }
+          .sortby {
+            padding: 15px 0;
+            display: flex;
+            p {
+                font-size: 15px;
+              }
+              .sortitems {
+                display: flex;
+                padding-left: 20px;
+                .sortitem {
+                    list-style: none;
+                    padding: 0 10px;
+                    font-size: 14px;
+                    font-weight: 300;
+                    cursor: pointer;
+                  }
+              }
+          }
+    }
+    
+
+}
